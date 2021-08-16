@@ -1,0 +1,29 @@
+{
+  "flight": [
+    {
+      "flightname": "SWIZ546",
+      "from": "CHENNAI",
+      "to": "HYDERABAD",
+      "date": "2021-08-14",
+      "fare": 600,
+      "id": 1
+    },
+    {
+      "flightname": "HDF345",
+      "from": "HYDERABAD",
+      "to": "CHENNAI",
+      "date": "2021-08-19",
+      "fare": 700,
+      "id": 2
+    },
+    {
+      "flightname": "djjjk",
+      "from": "BANGLORE",
+      "to": "HYDERABAD",
+      "date": "2021-08-20",
+      "fare": 200,
+      "id": 3
+    }
+  ],
+  "booking": []
+}
