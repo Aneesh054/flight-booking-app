@@ -1,6 +1,8 @@
 <div>
-    
-    <h3 class="d-flex justify-content-center display-5 alert-success">Flight Search</h3>
+    <div class="row search">
+        <div class="col-3 col-md-3 d-none d-md-block"></div>
+       <div class="col-12 col-md-6">
+    <h3 class="d-flex justify-content-center display-5 bg-secondary text-white mt-5 p-4">Flight Search</h3>
     <br>
     <label for="travellingFrom">Travelling From:</label>
     <span>
@@ -19,7 +21,7 @@
         <button class="btn btn-success form-control w-25" (click)="getFlight()" >Submit</button>
     </div>
     <div>
-        <h2 class="d-flex justify-content-center display-4 alert-success">Available Flight</h2>
+        <h2 class="d-flex justify-content-center display-5 mt-2 bg-secondary text-white">Available Flight</h2>
         <table class="table">
             <thead>
                 <tr>
@@ -40,8 +42,13 @@
                     <td>{{flight.to}}</td>
                     <td>{{flight.date|date}}</td>
                     <td>{{flight.fare}}</td>
+                    <td>
+                        <button class="btn btn-primary" [routerLink]="['/selectedflight',flight.id]">Book</button>
+                    </td>
                 </tr>
             </tbody>
         </table>
+    </div>
+    <div class="col-3 col-md-3 d-none d-md-block"></div>
     </div>
 </div>

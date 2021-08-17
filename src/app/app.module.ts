@@ -12,6 +12,9 @@ import { BookingsearchComponent } from './components/bookingsearch/bookingsearch
 import { CheckinComponent } from './components/checkin/checkin.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from "@angular/forms";
+import { UpdateDeleteFlightComponent } from './components/update-delete-flight/update-delete-flight.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegistrationComponent } from './components/registration/registration.component';
 
 
 @NgModule({
@@ -24,6 +27,9 @@ import { FormsModule } from "@angular/forms";
     BookingconfirmationComponent,
     BookingsearchComponent,
     CheckinComponent,
+    UpdateDeleteFlightComponent,
+    LoginComponent,
+    RegistrationComponent,
   ],
   imports: [
     BrowserModule,

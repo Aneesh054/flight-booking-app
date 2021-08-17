@@ -23,7 +23,294 @@
       "date": "2021-08-20",
       "fare": 200,
       "id": 3
+    },
+    {
+      "flightname": "NDKDKMO345",
+      "from": "BANGALORE",
+      "to": "VIJAYAWADA",
+      "date": "2021-08-18",
+      "fare": 600,
+      "id": 4
+    },
+    {
+      "flightname": "AND123",
+      "from": "INDIA",
+      "to": "USA",
+      "date": "2021-08-25",
+      "fare": 1000,
+      "id": 5
     }
   ],
-  "booking": []
+  "booking": [
+    {
+      "firstName": "Aneesh",
+      "lastName": "Raj",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "90h",
+      "id": 1
+    },
+    {
+      "firstName": "Aneesh",
+      "lastName": "Prince",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "24b",
+      "id": 2
+    },
+    {
+      "firstName": "Aneesh",
+      "lastName": "kumar",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "18x",
+      "id": 3
+    },
+    {
+      "firstName": "Aneesh",
+      "lastName": "kumar",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "18x",
+      "id": 4
+    },
+    {
+      "firstName": "Santhosh",
+      "lastName": "Reddy",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "90v",
+      "id": 5
+    },
+    {
+      "firstName": "siva",
+      "lastName": "kumar",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "43s",
+      "id": 6
+    },
+    {
+      "firstName": "Jai",
+      "lastName": "raj",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "93p",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "firstName": "siviji",
+      "lastName": "gaiwada",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "38o"
+    },
+    {
+      "firstName": "kidmidmd",
+      "lastName": "odmkdkd",
+      "gender": "Female",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "85f",
+      "id": 9
+    },
+    {
+      "id": 10,
+      "firstName": "kcxxnmxkl",
+      "lastName": "klkdnmdod",
+      "gender": "Female",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "64h"
+    },
+    {
+      "id": 11,
+      "firstName": "jdndidodk",
+      "lastName": "kdmdodpo",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "44q"
+    },
+    {
+      "id": 12,
+      "firstName": "idmdod",
+      "lastName": "kidndodnnd",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "56q"
+    },
+    {
+      "id": 13,
+      "firstName": "kdskjklcvnm",
+      "lastName": "cmklcmdkld",
+      "gender": "Female",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "25e"
+    },
+    {
+      "id": 14,
+      "firstName": "SAI",
+      "lastName": "KRISHNA",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "67g"
+    },
+    {
+      "firstName": "Raj",
+      "lastName": "Kumar",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "3c",
+      "id": 15
+    },
+    {
+      "firstName": "Sairam",
+      "lastName": "Chinimilli",
+      "gender": "Male",
+      "flight": {
+        "flightname": "AND123",
+        "from": "INDIA",
+        "to": "USA",
+        "date": "2021-08-25",
+        "fare": 1000,
+        "id": 5
+      },
+      "seatNumber": "51f",
+      "id": 16
+    },
+    {
+      "firstName": "Ram",
+      "lastName": "Kumar",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "85l",
+      "id": 17
+    },
+    {
+      "firstName": "Shivaji",
+      "lastName": "Kumar",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "19o",
+      "id": 18
+    }
+  ]
 }

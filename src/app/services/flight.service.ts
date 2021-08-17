@@ -15,13 +15,14 @@ const httpOptions = {
 export class FlightService {
 
   constructor(private httpClient:HttpClient) { }
-  getAllFlight():Observable<Flight[]>{
-    return this.httpClient.get<Flight[]>("http://localhost:3000/flight/");
+  getFlightById(id:number):Observable<Flight>{
+    return this.httpClient.get<Flight>(`http://localhost:3000/flight/${id}`);
   }
   getAllFlightsByArea(froms:string,tos:string,dates:Date):Observable<Flight[]>{
-    return this.httpClient.get<Flight[]>(`http://localhost:3000/flight?from=froms&&to=tos&&date=dates`);
+    return this.httpClient.get<Flight[]>(`http://localhost:3000/flight?from=${froms}&&to=${tos}&&date=${dates}`);
   }
   addFlight(flight:Flight):Observable<Flight[]>{
     return this.httpClient.post<Flight[]>("http://localhost:3000/flight/",JSON.stringify(flight),httpOptions);
   }
+  
 }

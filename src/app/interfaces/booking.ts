@@ -4,5 +4,6 @@ export interface Booking{
     firstName:string;
     lastName:string;
     gender:string;
-    flightId:number;
+    flight:Flight;
+    seatNumber:string;
 }
