@@ -39,6 +39,38 @@
       "date": "2021-08-25",
       "fare": 1000,
       "id": 5
+    },
+    {
+      "flightname": "wfv",
+      "from": "",
+      "to": "",
+      "date": "2021-08-18T04:51:36.467Z",
+      "fare": 0,
+      "id": 6
+    },
+    {
+      "flightname": "GER34",
+      "from": "ANDHRA PRADESH",
+      "to": "BANGLORE",
+      "date": "2021-08-18",
+      "fare": 0,
+      "id": 7
+    },
+    {
+      "flightname": "SAN123",
+      "from": "ANDHRA PRADESH",
+      "to": "DELHI",
+      "date": "2021-08-18",
+      "fare": 2000,
+      "id": 8
+    },
+    {
+      "flightname": "ANE22",
+      "from": "DELHI",
+      "to": "ANDHRA PRADESH",
+      "date": "2021-08-18",
+      "fare": 2000,
+      "id": 9
     }
   ],
   "booking": [
@@ -311,6 +343,51 @@
       },
       "seatNumber": "19o",
       "id": 18
+    },
+    {
+      "firstName": "RAM",
+      "lastName": "BABU",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "92y",
+      "id": 19
+    },
+    {
+      "firstName": "RAJA",
+      "lastName": "RAM",
+      "gender": "Male",
+      "flight": {
+        "flightname": "GER34",
+        "from": "ANDHRA PRADESH",
+        "to": "BANGLORE",
+        "date": "2021-08-18",
+        "fare": 0,
+        "id": 7
+      },
+      "seatNumber": "58q",
+      "id": 20
+    },
+    {
+      "firstName": "Aneesh",
+      "lastName": "Kumar",
+      "gender": "Male",
+      "flight": {
+        "flightname": "SWIZ546",
+        "from": "CHENNAI",
+        "to": "HYDERABAD",
+        "date": "2021-08-14",
+        "fare": 600,
+        "id": 1
+      },
+      "seatNumber": "4u",
+      "id": 21
     }
   ]
 }

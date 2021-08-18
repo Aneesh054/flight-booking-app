@@ -1,6 +1,7 @@
 .available{
-    background-image: url("https://images.pexels.com/photos/163792/model-planes-airplanes-miniatur-wunderland-hamburg-163792.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+   /* background-image: url("https://images.pexels.com/photos/163792/model-planes-airplanes-miniatur-wunderland-hamburg-163792.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");*/
     height: 100vh;
     background-size: 100%;
     background-size: cover;
+    background-color:rgb(208, 230, 208);
 }
